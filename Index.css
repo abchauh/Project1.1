@@ -1,52 +1,78 @@
-*{
+body,h1,h2,h3,h4,h5,h6
+{
   font-family: sans-serif;
-  box-sizing: inherit;
 }
-body{
-  margin: 0;
-  height: 100%;
-  box-sizing: border-box;
+.background
+{
+  height:600px;
+  background-image:url('JackSparrow.jpeg');
+  background-size:cover
 }
-/* ABOUT */
+.home
+{
+   color: White;
+   font-size: 25px;
+   font-style: italic;
+}
+.menu
+{
+  color: White;
+  font-size: 25px;
+  font-style: italic;
+}
+.about
+{
+  color: White;
+  font-size: 25px;
+  font-style: italic;
+}
+.contact
+{
+  color: White;
+  font-size: 25px;
+  font-style: italic;
+}
+.first_row
+{
+  color: White;
+  font-style: italic;
+  padding:2px;
+  margin:5px;
+}
+.center
+{
 
-.About-container{
-  height: 30%;
-  width: 100%;
-  margin: 0;
-  background-color: #c96858;
+  display:flex;
+  justify-content: center;
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
 }
-.about-head-main{              /* heading About */
-  font-family: cursive;
-  text-align: center;
-  }
-.chef-image{
-  height: 70px;
-  width:100px;
-  float: right;
-  border: 1px;
-  border-radius: 45% 45%;
+.center1
+{
+  color:grey;
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
 }
-.restaurant-image{
-  padding-top:15px;
+.center2
+{
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 90px;
 }
- .restaurant-image img{
-   width: 100%;
-   height: 300px;
- }
-.about-head{              /* heading Opening Hours */
-   font-family: cursive;
-   margin-left: 5px;
-  }
-.about-timing-section{
-  margin-left: 10px;
+.center3
+{
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
 }
- .about-half-left{
-    display: flex;
-    flex-direction: column;
- }
- .about-half-right{
-   display: flex;
-   flex-direction: column;
- }
-
- /* About End*/
+.last
+{
+  color:white;
+}

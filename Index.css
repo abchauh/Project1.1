@@ -4,7 +4,72 @@ body,h1,h2,h3,h4,h5,h6
 }
 .background
 {
-  height:400px;
+  height:600px;
   background-image:url('JackSparrow.jpeg');
   background-size:cover
+}
+.home
+{
+   color: White;
+   font-size: 25px;
+   font-style: italic;
+}
+.menu
+{
+  color: White;
+  font-size: 25px;
+  font-style: italic;
+}
+.about
+{
+  color: White;
+  font-size: 25px;
+  font-style: italic;
+}
+.contact
+{
+  color: White;
+  font-size: 25px;
+  font-style: italic;
+}
+.first_row
+{
+  color: White;
+  font-style: italic;
+  padding:2px;
+  margin:5px;
+}
+.center
+{
+
+  display:flex;
+  justify-content: center;
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
+}
+.center1
+{
+  color:grey;
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+}
+.center2
+{
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 90px;
+}
+.center3
+{
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+
 }

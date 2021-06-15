@@ -10,43 +10,59 @@ body,h1,h2,h3,h4,h5,h6
 {
   font-family: 'Dancing Script', cursive ;
 }
-.background
+
+.background_image
 {
   height:100%;
   width:100%;
   background-image:url('JackSparrow.jpeg');
   background-size:cover
 }
+.DuDuDu
+{
+  padding:8px 10px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
 .home
 {
-   color: White;
+   color: yellow;
    font-size: 25px;
    font-style: italic;
+   text-decoration: none;
 }
 .menu
 {
-  color: White;
+  color: yellow;
   font-size: 25px;
   font-style: italic;
+  text-decoration: none;
 }
 .about
 {
-  color: White;
+  color: yellow;
   font-size: 25px;
   font-style: italic;
+  text-decoration: none;
 }
 .contact
 {
-  color: White;
+  color: yellow;
   font-size: 25px;
   font-style: italic;
+  text-decoration: none;
 }
-.first_row
+.timing
 {
   color: White;
   font-style: italic;
   padding:2px;
   margin:5px;
+  background-color: seagreen;
+  border-radius: 10px 10px 10px 10px;
+  display: grid;
+  justify-content: center;
 }
 .main
 {
@@ -54,8 +70,6 @@ body,h1,h2,h3,h4,h5,h6
   justify-content: center;
   font-size: 100px;
   color:red;
-  font-family: ;
-
 }
 .center
 {
@@ -88,7 +102,34 @@ body,h1,h2,h3,h4,h5,h6
 }
 .last
 {
-  color:white;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color:White;
+  font-size: 25px;
+  background-color: grey;
+  text-decoration: none;
+}
+.heading
+{
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  font-size: 60px;
+  padding:64px;
+  background-color: black;
+  color:White;
+}
+.edit
+{
+  text-align: center;
+  border: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 20px;
+  font-size: 20px;
+
 }
 <<<<<<< Updated upstream
 

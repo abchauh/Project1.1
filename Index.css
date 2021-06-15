@@ -131,19 +131,6 @@ body,h1,h2,h3,h4,h5,h6
   font-size: 20px;
 
 }
-<<<<<<< Updated upstream
-
-/* ABOUT */
-.About-container{                   /*About container*/
-  background-color:lightgrey;
-  width: 100%;
-  height:30% ;
-  margin: 0;
-}
-.about-head-main{              /* heading About */
-  font-family: 'cursive','sans-serif';
-  font-weight: bold;
-=======
 -/* ABOUT */
 .About-container{                   /*About container*/
   background-color:lightgray;
@@ -155,7 +142,6 @@ body,h1,h2,h3,h4,h5,h6
 .about-head-main{              /* heading About */
   font-family: 'cursive','sans-serif';
   font-size: 25px;
->>>>>>> Stashed changes
   text-align: center;
   color:rgb(219,107,36);
 }
@@ -164,11 +150,8 @@ p{
 }
 p.about-restaurant-history{
   margin: 0 auto;
-<<<<<<< Updated upstream
   font-family: 'sans-serif','cursive';
-=======
   font-family:'Dancing Script',' sans-serif','cursive';
->>>>>>> Stashed changes
   width: 85%;
   display: flex;
   align-items: center;
@@ -176,7 +159,6 @@ p.about-restaurant-history{
 }
 .chef-image{
   height: 80px;
-<<<<<<< Updated upstream
   width:160px;
   float: right;
   border: 1px;
@@ -194,7 +176,6 @@ p.about-restaurant-history{
 .about-head{              /* heading Opening Hours */
    font-family: 'cursive','sans-serif';
    font-weight: bold;
-=======
   width:120px;
   float: right;
   border: 1px;
@@ -209,19 +190,15 @@ p.about-restaurant-history{
  }
 .about-head{              /* heading Opening Hours */
    font-family:'cursive','sans-serif';
->>>>>>> Stashed changes
    text-align: center;
    color: rgb(219,107,36);
   }
 .about-timing-section{
   margin-left: 10px;
-<<<<<<< Updated upstream
   display: flex;
   align-items: center;
   justify-content: center;
-=======
   height: 70px;
->>>>>>> Stashed changes
 }
  .about-half-left{
    width: 50%;

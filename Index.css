@@ -83,7 +83,6 @@ body{
 -/* ABOUT */
 .About-container{                   /*About container*/
   background-color:lightgray;
-  background-size: cover;
   width: 100%;
   height: 30%;
   margin: 0;

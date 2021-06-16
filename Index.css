@@ -102,13 +102,17 @@ body,h1,h2,h3,h4,h5,h6
   background-color: grey;
   text-decoration: none;
 }
+.Main1
+{
+  background-color: Black;
+  padding:64px;
+}
 .heading
 {
   display:flex;
   justify-content: center;
   text-align:center;
   font-size: 60px;
-  padding:64px;
   background-color: black;
   color:White;
 }
@@ -121,5 +125,22 @@ body,h1,h2,h3,h4,h5,h6
   background-color: black;
   padding: 20px;
   font-size: 20px;
-
+  border:2px solid Grey;
+}
+.center_work
+{
+  color:white;
+  padding:32px;
+}
+.work
+{
+  background-color: white;
+  padding:32px;
+}
+.PP
+{
+   float:right;
+   background-color: grey;
+   color:white;
+   border-radius: 10px 10px 10px 10px;
 }

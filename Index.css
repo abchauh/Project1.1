@@ -133,72 +133,56 @@ body,h1,h2,h3,h4,h5,h6
 }
 -/* ABOUT */
 .About-container{                   /*About container*/
-  background-color:lightgray;
+  background-color:lightgrey;
   width: 100%;
   height: 30%;
   margin: 0;
+  padding: 64px;
 }
 
 .about-head-main{              /* heading About */
   font-family: 'cursive','sans-serif';
-  font-size: 25px;
   text-align: center;
+  font-size: 45px;
   color:rgb(219,107,36);
 }
-p{
-  margin-left: 24px;
+.about-chef-name{
+  margin-left: 35px;
+  padding-left: 45px;
+  font-size: 18px;
 }
+
 p.about-restaurant-history{
-  margin: 0 auto;
-  font-family: 'sans-serif','cursive';
   font-family:'Dancing Script',' sans-serif','cursive';
   width: 85%;
-  display: flex;
-  align-items: center;
+  font-size: 22px;
   text-align: center;
+    margin-left: 30px;
+    padding-left: 35px;
 }
 .chef-image{
-  height: 80px;
-  width:160px;
+  height: 100px;
+  width:200px;
   float: right;
-  border: 1px;
   border-radius: 50% 50%;
-}
-.restaurant-image img{
-  width: 100%;
-  height: 300px;
-  align-items: center;
+  margin-bottom: 20px;
 }
 .restaurant-image{
-  padding-top:24px;
+  padding-top:32px;
   width: 100%;
 }
 .about-head{              /* heading Opening Hours */
-   font-family: 'cursive','sans-serif';
-   font-weight: bold;
-  width:120px;
-  float: right;
-  border: 1px;
-  border-radius: 45% 45%;
+  font-family: 'cursive','sans-serif';
+  font-size: 40px;
+  font-weight: bold;
+  padding-left:150px;
+  color: rgb(219,107,36);
+  text-align: center;
 }
- .restaurant-image{
-   padding-top:24px;
- }
- .restaurant-image img{
-   width: 100%;
-   height: 400px;
- }
-.about-head{              /* heading Opening Hours */
-   font-family:'cursive','sans-serif';
-   text-align: center;
-   color: rgb(219,107,36);
-  }
 .about-timing-section{
-  margin-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70px;
 }
  .about-half-left{
    width: 50%;
@@ -211,3 +195,45 @@ p.about-restaurant-history{
    text-align: center;
  }
  /* About End */
+
+/* contact */
+.contact-img{
+  height:400px;
+  width:100%;
+  padding: 0;
+}
+.contact-container{
+  padding-top: 32px;
+  background-color: lightgray;
+  padding: 64px;
+}
+.contact-heading{
+  text-align: center;
+  font-size: 35px;
+}
+.contactPara{
+    font-family:'Dancing Script',' sans-serif','cursive';
+    width: 85%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.contact--form-border{
+    padding: 10px;
+    border:1px solid gray;
+}
+.contact--form-btn{
+ background-color: #777;
+ padding: 10px;
+ color: white;
+ border-radius:24px;
+ cursor: pointer;
+}
+.contact-lastPara{
+   text-align: left;
+   font-size: 20px;
+   padding: 32px;
+}
+
+/* contact */

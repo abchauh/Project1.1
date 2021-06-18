@@ -77,6 +77,7 @@ body,h1,h2,h3,h4,h5,h6
   display:flex;
   justify-content: center;
   font-size: 50px;
+  color:black;
 }
 .center1
 {
@@ -88,6 +89,7 @@ body,h1,h2,h3,h4,h5,h6
 }
 .center2
 {
+  color:black;
   display:flex;
   justify-content: center;
   text-align:center;
@@ -95,6 +97,7 @@ body,h1,h2,h3,h4,h5,h6
 }
 .center3
 {
+  color:black;
   display:flex;
   justify-content: center;
   text-align:center;
@@ -110,13 +113,17 @@ body,h1,h2,h3,h4,h5,h6
   background-color: grey;
   text-decoration: none;
 }
+.Main1
+{
+  background-color: Black;
+  padding:64px;
+}
 .heading
 {
   display:flex;
   justify-content: center;
   text-align:center;
   font-size: 60px;
-  padding:64px;
   background-color: black;
   color:White;
 }
@@ -129,18 +136,67 @@ body,h1,h2,h3,h4,h5,h6
   background-color: black;
   padding: 20px;
   font-size: 20px;
-
+  border:2px solid Grey;
 }
--/* ABOUT */
-.About-container{                   /*About container*/
-  background-color:lightgrey;
+.center_work
+{
+  color:white;
+  padding:32px;
+}
+/* Pizza */
+.work
+{
+  background-color: white;
+  padding:32px;
+}
+.PP
+{
+   float:right;
+   background-color: grey;
+   color:white;
+   border-radius: 10px 10px 10px 10px;
+}
+/* Pasta */
+.work1
+{
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  padding:32px;
+  color:White;
+}
+.pass
+{
+  background-color: white;
+  padding:32px;
+}
+.PT
+{
+  float:right;
+  background-color: grey;
+  color:white;
+  border-radius: 10px 10px 10px 10px;
+}
+/* starters */
+.ST
+{
+    float:right;
+    background-color: grey;
+    color:white;
+    border-radius: 10px 10px 10px 10px;
+}
+  /* ABOUT */
+.About-container
+{
+  background-color:lightgray;
   width: 100%;
   height: 30%;
   margin: 0;
   padding: 64px;
 }
-
-.about-head-main{              /* heading About */
+.about-head-main
+{
+   /* heading About */
   font-family: 'cursive','sans-serif';
   text-align: center;
   font-size: 45px;

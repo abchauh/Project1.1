@@ -3,7 +3,7 @@
 }
 body{
   margin:0;
-  height: 100%;
+  height: 50%;
   box-sizing: border-box;
 }
 body,h1,h2,h3,h4,h5,h6
@@ -185,6 +185,7 @@ body,h1,h2,h3,h4,h5,h6
     color:white;
     border-radius: 10px 10px 10px 10px;
 }
+
   /* ABOUT */
 .About-container
 {
